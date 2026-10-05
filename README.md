@@ -5,14 +5,14 @@ Compilation and Usage:
 Use the provided Makefile to compile the program. Once compiled, the program can be executed using command-line arguments.  
 The program expects the following arguments:  
 
-"java Cipher <B|S> <input-file> <output-file> <key-file> <E|D>". 
+"java Cipher B|S input-file output-file key-file E|D". 
 
 Where:  
 B — Use the block cipher. 
 S — Use the stream cipher. 
-"<input-file>" — File containing the message to encrypt or decrypt. 
-"<output-file>" — File where the resulting message will be written. 
-"<key-file>" — File containing the encryption/decryption key. 
+"input-file" — File containing the message to encrypt or decrypt. 
+"output-file" — File where the resulting message will be written. 
+"key-file" — File containing the encryption/decryption key. 
 E — Encrypt the input. 
 D — Decrypt the input. 
 
