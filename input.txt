@@ -1,1 +1,1 @@
-
+Your desired message to be encrypted or decrypted
